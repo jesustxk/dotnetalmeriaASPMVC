@@ -26,12 +26,5 @@ namespace WebPrueba.Controllers
 
             return View();
         }
-
-        public ActionResult Personas()
-        {
-            ViewBag.Message = "Personitas.";
-
-            return View();
-        }
     }
 }
